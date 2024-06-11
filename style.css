@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap');
+*{
+  margin: 0;
+font-family: 'Pixelify Sans', cursive;
+  background-color: black;
+}
+
+h1{
+  margin-top: 40px;
+  color: white;
+  text-shadow: 0 5px blue;
+  text-align: center;
+}
+
+img{
+  margin-top: 40px;
+}
+
+p{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  color: green;
+}
+.fatos{
+  width: 15%;
+  height: 25px;
+   box-shadow: 0 5px blue;
+  display: inline-block;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 20px;
+  padding: 50px;
+
+}
+
+.ft{
+  position: absolute;
+  display: inline-block;
+  width: 20px;
+}
+
+#btn{
+  background-color: black;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 40px;
+}
+
+.btn{
+  background-color: #fff;
+  box-shadow: 0 5px blue;
+  margin: 50px;
+  border-radius: 15px;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.btn:hover{
+  font-size: 20px;
+  color: #fff;
+  background-color: green;
+  padding: 30px;
+  transition: 0.4s;
+  
+}
